@@ -37,11 +37,10 @@ a:visited {
 
 h2 {
   border-style: solid;
-  width: 27%;
-  position: absolute;
-  left: 38%;
-  bottom: 13%;
+  width: 31%;
   z-index: 1;
+  position: relative;
+  left: 34%;
 }
 
 @media only screen
@@ -49,7 +48,4 @@ and (min-device-width: 320px)
 and (max-device-width: 480px) {
   body { 
     font-size: 0.5em; }
-} 
-/*
-Add at least one media query to improve the responsiveness of your page.
-*/
+
