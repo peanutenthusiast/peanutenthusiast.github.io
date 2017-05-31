@@ -1,0 +1,55 @@
+body {
+  background-color: #229CE4;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+#intro {
+  background-image: url("images/yoga_blue.jpg");
+  color: white;
+  font-size: 4em;
+  font-family: Caflisch Script Pro, cursive;
+  width: 100%;
+  max-width: 100%;
+}
+
+#hook {
+  text-align: center;
+}
+
+h1 {
+  margin: auto;
+}
+
+a:link {
+  color: darkblue;
+}
+
+a:visited {
+  color: yellow;
+}
+
+.hugh {
+  padding-left: 10%;
+  padding-top: 5%;
+  width: 80%;
+  z-index: 0;
+}
+
+h2 {
+  border-style: solid;
+  width: 27%;
+  position: absolute;
+  left: 38%;
+  bottom: 13%;
+  z-index: 1;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+  body { 
+    font-size: 0.5em; }
+} 
+/*
+Add at least one media query to improve the responsiveness of your page.
+*/
