@@ -85,7 +85,7 @@ $(document).ready(function() {
     let stars = [];
 
     for (var i = 0; i <= 4; i++) {
-      let starUrl = i < num ? './graphics/stars-plain.png' : '../graphics/star-empty.png';
+      let starUrl = i < num ? './graphics/stars-plain.png' : './graphics/star-empty.png';
       stars.push(`<img src=${starUrl} class="star">`);
     }
     return stars.join('');
