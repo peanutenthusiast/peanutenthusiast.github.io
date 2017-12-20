@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  background-image: url('../graphics/background.png');
+  background-image: url('./graphics/background.png');
 }
 
 #contain {
