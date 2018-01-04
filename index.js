@@ -12,8 +12,10 @@ $(document).ready(function() {
       lat = data.latitude, long = data.longitude;
     });
   }
-  var applicationID = '4AD6LY9AIX';
-  var apiKey = 'ebf8b682150cfb289074833722f833f8';
+  var file = "config.txt";
+  
+  var applicationID = 'JWZBHN9LQK';
+  var apiKey = 'fbc67632049526e8b936f52400396a33';
   var index = 'restaurants';
   var client = algoliasearch(applicationID, apiKey);
   var helper = algoliasearchHelper(client, index, {
@@ -117,6 +119,7 @@ $(document).ready(function() {
   $('#search-box').on('keyup', function() {
     helper.setQuery($(this).val()).setQueryParameter('aroundLatLng', `${lat}, ${long}`)
           .search();
+          debugger;
   });
 
   function handleFacetHover(e) {
